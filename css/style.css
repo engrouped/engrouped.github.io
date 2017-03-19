@@ -1,6 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(animate.css);
 @import url(devices.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css);
 @font-face
 {
     font-family: 'San Francisco';
@@ -17,7 +18,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background: #ecf0f1
 }
 
 * {
@@ -171,4 +171,8 @@ a {
   stroke-dashoffset: 48;
   -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.tab a {
+  color: #FFF;
 }
